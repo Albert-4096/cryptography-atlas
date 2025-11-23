@@ -14,10 +14,6 @@ RUN npm install
 # Copy the rest of the source
 COPY . .
 
-# Optionally pass GEMINI_API_KEY at build time
-ARG GEMINI_API_KEY
-ENV GEMINI_API_KEY=${GEMINI_API_KEY}
-
 # Build the Vite app
 RUN npm run build
 

@@ -3,7 +3,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: cryptography-atlas
     container_name: cryptography-atlas
     ports:
       - "8183:80"
