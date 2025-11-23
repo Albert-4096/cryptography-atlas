@@ -51,9 +51,8 @@ const Navbar: React.FC<NavbarProps> = ({
               {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </button>
             <a 
-                href="https://github.com/google/genai" 
+                href="https://github.com/Albert-4096/cryptography-atlas" 
                 target="_blank" 
-                rel="noreferrer"
                 className="hidden sm:block text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
             >
                 GitHub
