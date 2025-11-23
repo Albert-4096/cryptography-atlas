@@ -74,7 +74,7 @@ docker run -d \
 
 Now open:
 
-> [http://localhost:8080](http://localhost:8080)
+> [http://localhost:8080](http://localhost:8183)
 
 ---
 
@@ -84,7 +84,7 @@ Now open:
 
 * Build the app from the local `Dockerfile`
 * Serve it via nginx
-* Expose it on port **8080**
+* Expose it on port **8183**
 
 From the project root:
 
@@ -94,7 +94,7 @@ docker compose up -d --build
 
 Then visit:
 
-> [http://localhost:8080](http://localhost:8080)
+> [http://localhost:8183](http://localhost:8183)
 
 To stop everything:
 
@@ -126,7 +126,7 @@ docker compose down
    ```
 
 4. (Optional) Put it behind a reverse proxy (Caddy, Nginx, Traefik, etc.) and point your domain (e.g. `crypto.example.com`) to the server.
-   The proxy should forward HTTP traffic to `http://localhost:8080`.
+   The proxy should forward HTTP traffic to `http://localhost:8183`.
 
 ---
 
