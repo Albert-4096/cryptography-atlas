@@ -9,7 +9,7 @@ export const ALGORITHMS: Algorithm[] = [
     "creator": "Joan Daemen, Vincent Rijmen",
     "description": "Block cipher operating on 128-bit blocks with 256-bit keys, using substitution-permutation network.",
     "abstract": "AES is the U.S. government standard for encrypting classified information. It uses a mathematical structure called a substitution-permutation network where data is repeatedly mixed, substituted, and XORed with derived keys.",
-    "original_paper_url": "https://csrc.nist.gov/publications/detail/fips/197/final",
+    "original_paper_url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
     "reference_implementation_url": "https://github.com/openssl/openssl",
     "mathematical_foundation": {
       "overview": "AES operates on the Galois Field GF(2^8). Key operations include polynomial multiplication and inversion.",
