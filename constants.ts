@@ -206,7 +206,7 @@ export const ALGORITHMS: Algorithm[] = [
     "creator": "Diffie, Hellman, Merkle",
     "description": "Protocol for securely exchanging cryptographic keys over a public channel.",
     "abstract": "Allows two parties to jointly establish a shared secret key over an insecure channel. Based on modular exponentiation. An eavesdropper sees the exchange but cannot compute the final secret.",
-    "original_paper_url": "https://www.paulgraham.com/diffiehellman.html",
+    "original_paper_url": "https://ee.stanford.edu/~hellman/publications/24.pdf",
     "reference_implementation_url": "https://github.com/openssl/openssl",
     "mathematical_foundation": {
       "overview": "Relies on Discrete Logarithm Problem.",
