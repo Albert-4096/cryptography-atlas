@@ -159,7 +159,7 @@ export const ALGORITHMS: Algorithm[] = [
     "creator": "Certicom Research",
     "description": "ECC curve used by Bitcoin and Ethereum for digital signatures.",
     "abstract": "ECC provides RSA-level security with much smaller keys. SECP256K1 relies on the discrete logarithm problem over the curve y² = x³ + 7. It allows for efficient signing and verification of transactions.",
-    "original_paper_url": "https://www.secg.org/SEC2-v0.3.pdf",
+    "original_paper_url": "https://www.secg.org/sec2-v2.pdf",
     "reference_implementation_url": "https://github.com/bitcoin-core/secp256k1",
     "mathematical_foundation": {
       "overview": "Weierstrass curve over finite field.",
